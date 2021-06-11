@@ -1,0 +1,46 @@
+[INFO] 2021-06-11 09:33:22,807 	         K_shot:	5
+[INFO] 2021-06-11 09:33:22,807 	          N_way:	5
+[INFO] 2021-06-11 09:33:22,807 	     batch_size:	32
+[INFO] 2021-06-11 09:33:22,808 	       ckpt_dir:	ckpt/
+[INFO] 2021-06-11 09:33:22,808 	       data_dir:	dataset/
+[INFO] 2021-06-11 09:33:22,808 	        dataset:	miniImagenet
+[INFO] 2021-06-11 09:33:22,808 	         epochs:	60000
+[INFO] 2021-06-11 09:33:22,808 	 evaluate_every:	10
+[INFO] 2021-06-11 09:33:22,808 	  evaluate_task:	100
+[INFO] 2021-06-11 09:33:22,808 	experiment_name:	default/
+[INFO] 2021-06-11 09:33:22,808 	    first_order:	True
+[INFO] 2021-06-11 09:33:22,808 	        gpu_num:	1
+[INFO] 2021-06-11 09:33:22,808 	    hidden_unit:	64
+[INFO] 2021-06-11 09:33:22,808 	        log_dir:	log/
+[INFO] 2021-06-11 09:33:22,808 	        meta_lr:	0.0001
+[INFO] 2021-06-11 09:33:22,808 	 num_steps_test:	10
+[INFO] 2021-06-11 09:33:22,808 	num_steps_train:	5
+[INFO] 2021-06-11 09:33:22,808 	    print_every:	1
+[INFO] 2021-06-11 09:33:22,808 	      query_num:	15
+[INFO] 2021-06-11 09:33:22,808 	     save_every:	10
+[INFO] 2021-06-11 09:33:22,808 	      step_size:	0.01
+[INFO] 2021-06-11 09:33:22,808 	  summary_every:	10
+[INFO] 2021-06-11 09:33:22,808 	       task_num:	2
+[INFO] 2021-06-11 09:33:22,808 	        weights:	ckpt-best.pth
+[INFO] 2021-06-11 09:33:43,717 [Epoch 1/60000] Loss = 1.3684  Accuracy = 43.7708
+[INFO] 2021-06-11 09:34:01,272 [Epoch 2/60000] Loss = 1.3310  Accuracy = 45.2708
+[INFO] 2021-06-11 09:34:19,415 [Epoch 3/60000] Loss = 1.3421  Accuracy = 45.3333
+[INFO] 2021-06-11 09:34:38,678 [Epoch 4/60000] Loss = 1.3589  Accuracy = 44.2500
+[INFO] 2021-06-11 09:34:57,830 [Epoch 5/60000] Loss = 1.2797  Accuracy = 48.6875
+[INFO] 2021-06-11 09:35:17,156 [Epoch 6/60000] Loss = 1.2982  Accuracy = 47.3125
+[INFO] 2021-06-11 09:35:36,290 [Epoch 7/60000] Loss = 1.2553  Accuracy = 49.2708
+[INFO] 2021-06-11 09:35:55,654 [Epoch 8/60000] Loss = 1.2612  Accuracy = 49.1250
+[INFO] 2021-06-11 09:36:14,607 [Epoch 9/60000] Loss = 1.2941  Accuracy = 47.7500
+[INFO] 2021-06-11 09:36:33,947 [Epoch 10/60000] Loss = 1.2306  Accuracy = 50.3750
+[INFO] 2021-06-11 09:36:51,502 Test [Epoch 10/60000] Loss = 1.3572  Accuracy = 44.9133
+[INFO] 2021-06-11 09:37:10,900 [Epoch 11/60000] Loss = 1.2566  Accuracy = 49.3333
+[INFO] 2021-06-11 09:37:30,283 [Epoch 12/60000] Loss = 1.2409  Accuracy = 50.3542
+[INFO] 2021-06-11 09:37:49,173 [Epoch 13/60000] Loss = 1.2877  Accuracy = 47.1667
+[INFO] 2021-06-11 09:38:08,557 [Epoch 14/60000] Loss = 1.1998  Accuracy = 52.0833
+[INFO] 2021-06-11 09:38:27,779 [Epoch 15/60000] Loss = 1.1793  Accuracy = 53.5208
+[INFO] 2021-06-11 09:38:46,891 [Epoch 16/60000] Loss = 1.1853  Accuracy = 53.7292
+[INFO] 2021-06-11 09:39:05,933 [Epoch 17/60000] Loss = 1.1872  Accuracy = 53.5833
+[INFO] 2021-06-11 09:39:25,143 [Epoch 18/60000] Loss = 1.2248  Accuracy = 50.6458
+[INFO] 2021-06-11 09:39:44,262 [Epoch 19/60000] Loss = 1.1863  Accuracy = 52.9167
+[INFO] 2021-06-11 09:40:03,500 [Epoch 20/60000] Loss = 1.2002  Accuracy = 52.2292
+[INFO] 2021-06-11 09:40:21,662 Test [Epoch 20/60000] Loss = 1.2781  Accuracy = 48.1400
